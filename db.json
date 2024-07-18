@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "age": 21,
+      "course": "Computer Science"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "age": 22,
+      "course": "Mathematics"
+    },
+    {
+      "name": "Anayet Mohammad Rawshad",
+      "age": "36",
+      "course": "honnours",
+      "id": "8746"
+    }
+  ]
+}

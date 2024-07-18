@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Management</h1>
+    <form id="student-form">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="number" id="age" placeholder="Age" required>
+      <input type="text" id="course" placeholder="Course" required>
+      <button type="submit">Add Student</button>
+    </form>
+    <ul id="student-list"></ul>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Update Student</h2>
+      <form id="update-form">
+        <input type="text" id="update-name" placeholder="Name" required>
+        <input type="number" id="update-age" placeholder="Age" required>
+        <input type="text" id="update-course" placeholder="Course" required>
+        <button type="submit">Update Student</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
